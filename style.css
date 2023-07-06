@@ -1,7 +1,21 @@
 
 body
 {
-    background-color: #22A699;
+    background-image: linear-gradient(
+  70deg,
+  hsl(55deg 95% 61%) 0%,
+  hsl(52deg 97% 60%) 8%,
+  hsl(49deg 98% 59%) 16%,
+  hsl(46deg 99% 58%) 24%,
+  hsl(44deg 100% 57%) 33%,
+  hsl(42deg 100% 56%) 42%,
+  hsl(39deg 100% 55%) 51%,
+  hsl(37deg 100% 55%) 61%,
+  hsl(34deg 99% 55%) 71%,
+  hsl(32deg 98% 55%) 81%,
+  hsl(29deg 97% 55%) 91%,
+  hsl(26deg 95% 55%) 100%
+);
     background-position: center;
     background-attachment: fixed;
 }
@@ -31,7 +45,21 @@ html
 
 .navbar
 {
-    background-color: #F2BE22 !important;
+    background-image: linear-gradient(
+  340deg,
+  hsl(26deg 97% 59%) 0%,
+  hsl(29deg 98% 59%) 8%,
+  hsl(32deg 99% 59%) 16%,
+  hsl(34deg 99% 59%) 24%,
+  hsl(37deg 100% 59%) 33%,
+  hsl(40deg 100% 58%) 42%,
+  hsl(42deg 100% 57%) 51%,
+  hsl(45deg 100% 57%) 61%,
+  hsl(48deg 100% 56%) 71%,
+  hsl(50deg 100% 55%) 81%,
+  hsl(53deg 100% 54%) 91%,
+  hsl(55deg 100% 51%) 100%
+);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -50,7 +78,7 @@ html
 {
     color: white !important;
     padding: 5px 6px;
-    background-color: rgb(243, 67, 67);
+    background-color: rgb(252, 126, 8);
 }
 
 .nav-link:hover
@@ -64,187 +92,168 @@ html
     transition: 0.2s;
 }
 
-
-
-header
-{
-    width: 100%;
-    height: 800px;
-    background-color: #F29727 !important;
-    position: relative;
-
-}
-
-header img
-{
-    float: right;
-    margin: 40px 120px;
-}
-
-
-.main
-{
-    padding: 250px 90px;
-    position: absolute;
-    top: 0px;
-    background-color: rgb(243, 67, 67) !important;
-    width: 55%;
-    height: 800px;
-    position: absolute;
-}
-
-.head
-{
-    font-size: 6.5rem;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.para
-{
-    font-size: 2.4rem;
-    margin-top: 20px;
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-}
-
-.btn1
-{
-    border: none;
-    border-radius: 5px;
-    background-color: #F2BE22  !important;
-    width: 180px;
-    height: 40px;
-    font-size:2rem ;
-    margin-top: 30px;
-    color: black;
-    font-weight: 500;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    transition: 0.6s;
-    text-decoration: none;
-
-}
-
-.btn1:hover
-{
-    background-color: white !important;
-    color: black !important;
-    box-shadow: 1px 1px 20px rgb(117, 116, 116);
-}
-
-.carousel-inner
-{
-
-    padding-top: 50px;
-    padding-left: 30px;
-}
-
-.flex
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.flex1
-{
-    width: 50%;
-    height: 50%;
-    padding: 20px;
-}
-
-.flex2
-{
-    width: 50%;
-    height: 50%;
-    padding: 20px;
-}
-
-.card
-{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    float: left;
-    margin-left:10%;
-    background-color:rgb(27, 26, 26);
-    border-radius: 10px;
-    margin-top: 50px;
-    border: none;
-    padding: 0px 0px 15px 0px;
-    transition: 0.5s;
-}
-
-.card:hover
-{
-    transform: scale(1.03);
-}
-
-.card-img-top
-{
-    width: 320px;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.card-title
-{
-    font-size: 2.2rem;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.card-text
-{
-    font-size: 1.6rem;
-    color: white;
-    margin-top: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.btn
-{
-    background-color:#22A699;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-top: 5px;
-}
-
-.product
-{
-    height: 1800px;
-    width: 100%;
-    background-color:#F29727 !important ;
-    padding: 100px 0px 40px 0px;
-}
-
-
-.row
-{
-   background-color: #F2BE22;
-   padding: 40px;
-}
-
-.form-control
-{
-    font-size: 2rem;
-    margin: 15px;
-    width: 90%;
-    border: 3px solid #F29727 ;
-    border-radius: 5px;
-}
-
-
-
-textarea
-{
-    height: 150px;
-}
-
 .navbar-brand:hover
 {
     transform: rotate(360deg);
 }
 
+.homeimg
+{
+    width: 100%;
+}
 
+.homeimg img
+{
+    width: 100%;
+    height:100vh;
+}
+
+.card
+{
+    margin: 5px auto;
+    background-color: rgb(240, 144, 18);
+    border-radius: 10px;
+    transition: 0.4s
+}
+
+
+.card:hover
+{
+    transform: scale(1.01);
+}
+
+.container
+{
+    margin-top: 160px;
+}
+
+.container h1
+{
+    font-size:6rem;
+    padding-bottom:80px ;
+    color: white;
+}
+
+.card-img-top
+{
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.card-title
+{
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.card-text
+{
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.btn
+{
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.flex
+{
+    display:flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex img
+{
+    padding: 30px 30px ;
+}
+
+.flex div img
+{
+    width: 140rem;
+}
+
+.flex div h1
+{
+    font-size: 6rem;
+    color: white;
+    line-height: 90px;
+}
+
+.flex div p
+{
+   font-size: 2.4rem;
+   font-weight: 600;
+   color:white;
+  
+}
+
+.flex div
+{
+    padding: 25px;
+}
+
+@media only screen and (max-width:1366px)
+{
+    .navbar-nav 
+    {
+       margin-left: 40%; 
+    padding-left: 40px;  
+    }
+}
+
+
+@media only screen and (max-width:1232px)
+
+{
+
+
+    .navbar-nav 
+    {
+       margin-left: 20%; 
+    padding-left: 30px;  
+    }
+
+
+    
+}
+
+
+
+@media only screen and (max-width:932px)
+{
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.55);
+
+    }
+
+
+    .active1
+    {
+        background-color: transparent;
+    }
+
+    .navbar-nav
+    {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+}
